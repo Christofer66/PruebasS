@@ -1,0 +1,162 @@
+/* estilos universales */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+  /* estilos al body */
+body {
+background-color: #e2c5c5;
+margin: 23px;
+font-family: 'Roboto Mono', monospace;
+}
+  /* ----------------------------------MENU----------------------------------- */
+  /* ----------------------------------CABECERA----------------------------------- */
+
+  /* Estilos al header */
+header {
+    max-height: 200px;
+    height: 100px;
+}
+
+/* aplicamos estilos al menu */
+header nav a {
+    color: #08c46c;
+    margin: 0 20px;
+    padding-bottom: 9px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+header nav a:hover {
+    border-bottom: 2px solid rgb(250, 250, 250);
+}
+
+.texto1 {
+    text-align: center;
+    font-size: 40px;
+    color: gray;
+    font-family: cursive;
+}
+div section,
+.Inicio{
+    width: 100%;
+    max-width: 1200px;
+    height: 30px;
+}
+
+.contenedor .Inicio .texto {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-family: monospace;
+    top: -65px;
+}   
+
+.contenedor .Inicio a {
+    padding-bottom: 9px;
+    margin: 0 20px;
+    text-decoration: transparent;
+    padding: initial;
+    font-family: fantasy;
+    position: relative;
+    top: -25px;
+}
+
+.comprar{
+    z-index: x;
+    float: right;
+    right: -120px;
+}
+/* ---------------------------------FIN CABECERA-------------------------------------------- */
+/* ------------------------------------CUERPO----------------------------------------*/
+.texto{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 37px;
+}
+
+.texto2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 25px;
+    font-style: oblique;
+}
+.texto3{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+.contenedor2 {
+    background-color: rgb(255, 255, 255);
+    margin-top: -100px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    width: 90%;
+    border: 1px solid black;
+    margin: 30px;
+    padding: 30px;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.precio {
+    font-size: 18px;
+    color: rgb(24, 18, 18);
+}
+
+.btn-pedido  {
+    background: rgb(245, 187, 172);
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: black;
+    border-radius: 3px;
+    margin-left: 170px; 
+}
+
+.btn-pedido:hover{
+    background: rgb(226, 187, 155);
+}
+
+
+.comprar{
+    z-index: x;
+    float: right;
+    width: 120px;
+    right: 120px;
+    left: -40px;
+    float: none;    
+}
+.inicio .iniciotexto .texto {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: monospace;
+    top: -45px;
+    
+}   
+.inicio .iniciotexto a{
+    padding-bottom: 9px;
+    margin: 15px;
+    text-decoration: transparent;
+    padding: initial;
+    font-family: fantasy;
+    position: relative;
+    top: 2px;
+    right: 35px;
+}
+
+.inicio .iniciotexto .promo{
+    
+    float: right;
+    width: 600px;
+    right: 400px;
+    left: -40px;
+    position: relative;
+    top: -80px;
+}
