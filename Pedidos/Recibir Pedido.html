@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega-Yuki</title>
+    <link rel="stylesheet" href="/css/h10.css">
+    <script>
+        function Confirmar() {
+            document.getElementById("term").style.display = "block";
+        }
+
+        function Cerrar() {
+            document.getElementById("term").style.display = "none";
+        }
+    </script>
+</head>
+
+<body>
+    <div class="ico">
+        <a href="#"><img src="/img/farma.png" alt="icono"></a>
+    </div>
+    <div class="formulario">
+        <form action="">
+            <h2>¿Donde deseas recibir tu pedido?</h2>
+            <p>Recuerda indicar la numeración de tu domicilio en el campo dirección e intentar omitir calle o jirón.
+                <p>
+                    <h3>Ej: Angamos 1234, Lince</h3>
+                    <select name="dist" id="dist">
+                <option value="0">Distrito</option>
+                <option value="1">Ate</option>
+                <option value="2">Barranco</option>
+                <option value="3">Breña</option>
+                <option value="4">Callao</option>
+                <option value="5">Cercado de Lima</option>
+                <option value="6">Chorrillos</option>
+                <option value="7">Comas</option>
+                <option value="8">El Agustino</option>
+                <option value="9">Independencia</option>
+                <option value="10">Jesús María</option>
+                <option value="11">La Molina</option>
+                <option value="12">La Victoria</option>
+                <option value="13">Lince</option>
+                <option value="14">Los Olivos</option>
+                <option value="15">Magdalena del Mar</option>
+                <option value="16">Miraflores</option>
+                <option value="17">Pueblo Libre</option>
+                <option value="18">Puente Piedra</option>
+                <option value="19">Rímac</option>
+                <option value="20">San Borja</option>
+                <option value="21">San Isidro</option>
+                <option value="22">San Juan de Lurigancho</option>
+                <option value="23">San Juan de Miraflores</option>
+                <option value="24">San Luis</option>
+                <option value="25">San Martin de Porres</option>
+                <option value="26">Santa Anita</option>
+                <option value="27">Santa Rosa</option>
+                <option value="28">Santiago de Surco</option>
+                <option value="29">Surquillo</option>
+                <option value="30">Villa El Salvador</option>
+                <option value="31">Villa María del Triunfo</option>
+            </select>
+                    <br>
+                    <select name="dept" id="dept">
+                <option value="">Departamento</option>
+                <option value="">Lima</option>
+            </select>
+                    <br>
+                    <select name="pago" id="pago">
+                <option value="0">Métodos de Pago</option>
+                <option value="1">American Express</option>
+                <option value="2">Paypal</option>
+                <option value="3">Scotiabank</option>
+                <option value="4">Visa</option>
+                <option value="5">Bitcoin</option>
+            </select>
+                    <br>
+                    <input class="calendario" type="date" value="2021-07-23" min="2021-07-23" max="2021-08-23" name="calendario" id="calendario">
+                    <a href="http://127.0.0.1:5500/h10-11/Registrar.html"><input class="account" type="button" value="¿Ya tienes una cuenta?"></a>
+                    <br>
+                    <div class="confirmar">
+                        <a href="/b.html"><input type="button" value="Confirmar" name="btnConfirmar" id="btnConfirmar"></a>
+                    </div>
+        </form>
+    </div>
+    <footer>
+        <p>Copyright © 2021 Yuki Inc. Todos los derechos reservados</p>
+        <h4>Perú | Cambiar ubicación</h4>
+    </footer>
+    <div class="terminos" id="term">
+        <input class="terminosCondiciones" type="checkbox" name="cboTerminos" id="cboTerminos">
+        <label for="cboTerminos">He leido y acepto las Politicas de Privacidad</label>
+        <br>
+        <input class="terminosCondiciones" type="checkbox" name="cboPublic" id="cboPublic">
+        <label for="cboPublic">Autorizo el envío de publicidad e información comercial por PROJECT COVERED según las Politicas de Privacidad</label>
+        <br>
+        <input class="terminosCondiciones" type="checkbox" name="cboGar" id="cboGar">
+        <label for="cboGar">Recordar que este producto tiene garantía de 6 meses</label>
+        <br>
+
+        <a href=""><input class="aceptar" type="button" value="Aceptar" name="btnAceptar" id="btnAceptar"></a>
+        </a>
+</body>
+
+</html>
